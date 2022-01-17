@@ -7,10 +7,12 @@ function Profile() {
             <img className='profile-pricture' src={ProfileImage} alt="Profile" />
             <main className='profile-content'>
                 <h1 className='profine-name'>Dennis Korir</h1>
-                <p>Frontend Developer</p>
-                <p>dennis.korir@brandandtargets.com </p>
-                <button>Email</button>
-                <button>LinkdIn</button>
+                <p className='profile-role'>Frontend Developer</p>
+                <p className='profile-email'>dennis.korir@brandandtargets.com </p>
+                <button className='btn-profile-email'>
+                    <i class="fas fa-envelope"></i> Email</button>
+                <button className='btn-profile-linkedin'>
+                    <i class="fab fa-linkedin"></i> LinkdIn</button>
 
                 <h3>About</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Quasi, quisquam.  </p>    
@@ -18,8 +20,12 @@ function Profile() {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Quasi, quisquam.  </p>    
                 
                 <footer>
-                    <p>&copy; 2020 Dennis Korir</p>
+                    <i class="fab fa-twitter-square"></i>   
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-github-square"></i>
                 </footer>
+
             </main>
 
         </div>

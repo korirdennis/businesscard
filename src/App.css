@@ -34,7 +34,42 @@ body{
   margin: -5px auto;
   padding: 10px;
 }
+.profile-role{
+  color: #F3BF99 ;
+  font-size: 16px;
+}
+.profile-email{
+  font-size: 10px;
+}
+.btn-profile-email{
+  border-radius: 8px;
+  color: black;
+  padding: 6px 30px;
+  margin: 0px 5px;;  
+  text-align: center;
+  border-style: none;
+
+}
+.btn-profile-linkedin{
+  border-radius: 8px;
+  background-color: #5093E2;
+  color: white;
+  padding: 6px 30px;
+  margin: 0px 5px;;  
+  text-align: center;
+  border-style: none;
+
+}
 
 footer{
   background-color: #161619;
+  min-height: 64px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+footer i{
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
 }
