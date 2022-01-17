@@ -1,9 +1,10 @@
 import './App.css';
+import Profile from './componet/Profile';
 
 function App() {
   return (
     <div className="App">
-      <h1> Business card profile goes here</h1>
+      <Profile/>
     </div>
   );
 }

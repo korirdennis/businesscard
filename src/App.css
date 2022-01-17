@@ -1,0 +1,40 @@
+body{
+  font-family: 'Inter', sans-serif;
+  background-color: #23252c;
+}
+.App{
+  text-align: center;
+  
+}
+.profile-pricture{
+  width: 317px;
+  height: 317px;
+  border-radius: 8px 8px 0px 0px;
+ 
+}
+.profile-content{
+  width: 317px;
+  background-color: #1A1B21;
+  align-content: center;
+  color: white;
+  margin: 0px auto;
+  border-radius: 0px 0px 8px 8px;
+  
+  
+}
+.profile-content p{
+  max-width: 317px;
+  margin: 0 auto;
+  padding: 6px;
+
+}
+.profine-name{
+  font-size: 30px;
+  font-weight: bold;
+  margin: -5px auto;
+  padding: 10px;
+}
+
+footer{
+  background-color: #161619;
+}
